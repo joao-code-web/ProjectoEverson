@@ -11,6 +11,7 @@
 }
 
 /* Estilização do header */
+
 header {
     width: 100%;
     padding: 1.5em;
@@ -52,6 +53,8 @@ header {
 
 /* Estilização do main */
 
+/* Estilização do banner */
+
 .bg-main {
     width: 100%;
     height: 300px;
@@ -70,7 +73,7 @@ header {
     font-size: 60px;
 }
 
-/* Estilização do banner */
+/* Estilização da descrição embaixo do banner */
 
 .description-doctor {
     width: 800px;
@@ -100,7 +103,7 @@ header {
     text-align: justify;
 }
 
-/* Estilização da descrição embaixo do banner */
+/* Estilização da descrição maior */
 
 .description-text {
     width: 90%;
@@ -113,4 +116,34 @@ header {
 .paragraf {
     width: 50%;
     padding: 1em;
+}
+
+/* Estilização do footer */
+
+footer {
+    width: 100%;
+    background-color: #000;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo-footer {
+    font-size: 20px;
+}
+
+.icons-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons-footer a {
+    color: white;
+}
+
+.icons-footer i {
+    padding: 1em;
+    font-size: 20px;
 }
