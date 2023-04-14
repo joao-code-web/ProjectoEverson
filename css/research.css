@@ -10,56 +10,10 @@
   width: 100%;
 }
 
-/* Estilização do header */
-
-header {
-  width: 100%;
-  padding: 1.5em;
-  display: flex;
-  justify-content: space-between;
-}
-
-.button-mobile {
-  display: none;
-  padding: 0.5em;
-  font-size: 30px;
-}
-
-.logo {
-  font-size: 25px;
-}
-
-.links nav ul {
-  display: flex;
-  list-style-type: none;
-}
-
-.links nav ul li {
-  padding: 1em 0.5em;
-}
-
-.links nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-}
-
-.links nav ul li a:hover {
-  border-bottom: 2px solid black;
-}
-
-.links nav ul .iconsNav {
-  padding: 0.5em 0em;
-}
-
-.links nav ul .iconsNav i {
-  padding: 0.5em;
-  font-size: 20px;
-}
-
 /* Estilização do main */
 
 main {
+  margin: 50px 0px;
   width: 100%;
   padding: 1em auto;
 }
@@ -80,20 +34,12 @@ main .research > h1.tittle-main {
 .wraper-research .single-research {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   margin: 2em auto;
-}
-
-.wraper-research .single-research .tittle-research {
-  width: 100%;
-  text-align: center;
-  padding: 1em;
-  font-size: 17px;
-  color: rgba(20, 20, 20, 0.836);
 }
 
 .wraper-research .single-research .img-research {
   width: 40%;
+  height: 400px;
 }
 
 .wraper-research .single-research .img-research img {
@@ -107,52 +53,45 @@ main .research > h1.tittle-main {
   text-align: justify;
 }
 
+.wraper-research .single-research .description-research h1{
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+  color: rgba(20, 20, 20, 0.836);
+  padding-bottom: 2em;
+}
+
+
 @media screen and (max-width: 900px) {
-  /* mudança do header para mobile */
-
-  header {
-    text-align: center;
-    flex-wrap: wrap;
-    margin: auto;
-    position: relative;
+  .wraper-research .single-research {
+    flex-direction: column;
   }
-
-  .button-mobile {
-    display: block;
-    position: absolute;
-    left: 90px;
-  }
-
-  .logo {
-    text-align: center;
-    font-size: 25px;
+  
+  .wraper-research .single-research .img-research {
     width: 100%;
-    text-align: center;
+    height: 400px;
   }
-
-  .links {
-    text-align: center;
-    padding: 0px;
-  }
-
-  .links nav {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    display: none;
+  
+  
+  .wraper-research .single-research .description-research {
     width: 100%;
-    background-color: rebeccapurple;
-    margin: auto;
-    padding: 1.5em;
-    flex-wrap: wrap;
+    padding: 0em 1em;
+    text-align: justify;
   }
 
-  .links nav ul {
-    flex-wrap: wrap;
-    justify-content: space-around;
+}
+
+@media screen  and (max-width: 500px){
+  .description-doctor .photo-doctor {
+    width: 100%;
   }
 
-  .links nav ul li {
-    text-align: center;
+  .description-text {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .paragraf {
+    width: 100%;
   }
 }
