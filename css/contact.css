@@ -49,12 +49,12 @@ main form span {
 }
 
 main form input {
-    padding: 2em 0.5em;
-    background-color: #a3a39a;
+    padding: 1.5em 0.5em;
+    background-color: #ddddd4;
 }
 
 main form textarea {
-    background-color: #a3a39a;
+    background-color: #ddddd4;
     margin: 1em 0px;
     resize: none;
 }
