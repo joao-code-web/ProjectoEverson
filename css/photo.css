@@ -2,6 +2,30 @@ main {
     width: 100%;
 }
 
+.imgBig {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(40, 31, 36, 0.176);
+    display: none;
+}
+
+.img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+}
+
+.imgBig img {
+    width: 100%;
+    height: 100%;
+}
+
 .photo {
     display: flex;
     flex-wrap: wrap;

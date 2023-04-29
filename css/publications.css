@@ -2,23 +2,32 @@ main {
     width: 100%;
 }
 
+.title-publi {
+    margin-top: 2em;
+}
+
 .publicactions-wraper {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 4em 0px;
 }
 
 .public-single {
     width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 10px;
 }
 
 .public-single .number {
-    font-size: 40px;
-    padding-right: 1em;
+    width: 100%;
+}
+
+.area-publication {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0px;
 }

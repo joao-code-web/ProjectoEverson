@@ -50,11 +50,11 @@ main form span {
 
 main form input {
     padding: 1.5em 0.5em;
-    background-color: #ddddd4;
+    background-color: #cfcfce;
 }
 
 main form textarea {
-    background-color: #ddddd4;
+    background-color: #cfcfce;
     margin: 1em 0px;
     resize: none;
 }
