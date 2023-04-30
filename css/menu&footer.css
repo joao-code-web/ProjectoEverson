@@ -45,6 +45,7 @@ header {
   display: none;
   padding: 0.5em;
   font-size: 30px;
+  cursor: pointer;
 }
 
 .logo {
@@ -146,7 +147,7 @@ footer {
     left: 0;
     display: none;
     width: 100%;
-    background-color: rebeccapurple;
+    background-color: #f4eaea;
     margin: auto;
     padding: 1.5em;
     flex-wrap: wrap;

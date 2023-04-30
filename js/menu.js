@@ -1,4 +1,4 @@
-const button = document.querySelector(".button-mobile");
+const button = document.querySelector(".button-mobile i");
 const nav = document.querySelector(".links nav");
 
 button.addEventListener("click", () => {
