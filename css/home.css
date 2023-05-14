@@ -10,7 +10,6 @@
   width: 100%;
 }
 
-
 /* Estilização do main */
 
 /* Estilização da descrição embaixo do banner */
@@ -18,13 +17,16 @@
 .description-doctor {
   width: 800px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 2em auto;
   padding: 1em;
 }
 
 .description-doctor .photo-doctor {
   border-radius: 100%;
-  width: 30%;
+  width: 400px;
+  height: 280px;
 }
 
 .description-doctor .photo-doctor img {
@@ -34,7 +36,7 @@
 }
 
 .description-doctor .text-doctor {
-  width: 70%;
+  width: 90%;
   padding: 2em;
 }
 
@@ -66,17 +68,10 @@
   }
 
   .description-doctor .photo-doctor {
-    border-radius: 100%;
-    width: 50%;
-    margin: auto;
+    width: 300px;
+    height: 300px;
   }
-  
-  .description-doctor .photo-doctor img {
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-  }
-  
+
   .description-doctor .text-doctor {
     width: 100%;
     padding: 1em;
@@ -85,21 +80,28 @@
   .description-text {
     width: 100%;
   }
-
 }
 
+@media screen and (max-width: 500px) {
+  .description-doctor .photo-doctor {
+    width: 300px;
+    height: 300px;
+  }
 
-@media screen  and (max-width: 500px){
-    .description-doctor .photo-doctor {
-      width: 100%;
-    }
+  .description-text {
+    width: 100%;
+    flex-direction: column;
+  }
 
-    .description-text {
-      width: 100%;
-      flex-direction: column;
-    }
+  .paragraf {
+    width: 100%;
+  }
+}
 
-    .paragraf {
-      width: 100%;
-    }
+@media screen and (max-width: 300px) {
+  .description-doctor .photo-doctor  {
+    width: 100%;
+    height: 20%;
+    margin: auto;
+  }
 }
