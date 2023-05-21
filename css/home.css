@@ -11,9 +11,6 @@
 }
 
 /* Estilização do main */
-
-/* Estilização da descrição embaixo do banner */
-
 .description-doctor {
   width: 800px;
   display: flex;
@@ -43,23 +40,60 @@
 .description-doctor .text-doctor p {
   font-size: 20px;
   text-align: justify;
-  padding: 1em 0px";
+  padding: 0.2em 0px;
 }
 
-/* Estilização da descrição maior */
 
-.description-text {
-  width: 90%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 2em auto;
+/* Estilos para o slide */
+.slide-container {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  margin: 4em auto;
 }
 
-.paragraf {
-  width: 50%;
-  padding: 1em;
-  text-align: justify;
+.slide {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  display: none;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Estilos para as bolinhas de navegação */
+.navigation {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: black;
 }
 
 @media screen and (max-width: 900px) {
@@ -100,7 +134,7 @@
 }
 
 @media screen and (max-width: 300px) {
-  .description-doctor .photo-doctor  {
+  .description-doctor .photo-doctor {
     width: 100%;
     height: 20%;
     margin: auto;
