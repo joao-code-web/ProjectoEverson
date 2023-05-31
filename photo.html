@@ -9,10 +9,7 @@
     <link rel="stylesheet" href="./css/menu&footer.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     />
   </head>
   <body>
@@ -53,82 +50,29 @@
     <!--banner-->
 
     <main class="cont">
-      <div class="imgBig">
-        <div class="img"></div>
-        <!--img-->
+      <div id="overlay"></div>
+      <div id="image-container">
+        <img id="expanded-image" src="" />
+        <span id="prev-image" class="arrow"
+          ><i class="fas fa-chevron-left"></i
+        ></span>
+        <span id="next-image" class="arrow"
+          ><i class="fas fa-chevron-right"></i
+        ></span>
       </div>
-      <!--imgBig-->
 
-      <div class="photos">
-        <div class="photos-wraprer">
-          <h1>Undergraduate</h1>
-
-          <div class="photos-wraper-single">
-            <div class="photos-single">
-              <img src="./photos/photo_unde.jpeg" alt="" />
-            </div>
-            <!--photos-single-->
-
-            <div class="photos-single">
-              <img src="./photos/photo_unde3.jpeg" alt="" />
-            </div>
-            <!--photos-single-->
-
-            <div class="photos-single">
-              <img src="./photos/photo_unde4.jpeg" alt="" />
-            </div>
-            <!--photos-single-->
-
-            <div class="photos-single">
-              <img src="./photos/photo_unde5.jpeg" alt="" />
-            </div>
-            <!--photos-single-->
-
-            <div class="photos-single">
-              <img src="./photos/photo_unde6.jpeg" alt="" />
-            </div>
-            <!--photos-single-->
-
-            <div class="photos-single">
-              <img src="./photos/photo_unde7.jpeg" alt="" />
-            </div>
-            <!--photos-single-->
-          </div>
-          <!--photos-wraper-single-->
-        </div>
-        <!--photos-wraper-->
-
-        <div class="photos-wraprer">
-          <h1>High School</h1>
-
-          <div class="photos-wraper-single">
-            <div class="photos-single">
-              <img src="./photos//photo_hing.jpeg" alt="" />
-            </div>
-            <!--photos-single-->
-            <div class="photos-single">
-              <img src="./photos//photo_hing2.jpeg" alt="" />
-            </div>
-            <!--photos-single-->
-          </div>
-          <!--photos-wraper-single-->
-        </div>
-        <!--photos-wraper-->
-
-        <div class="photos-wraprer">
-          <h1>Titulo</h1>
-
-          <div class="photos-wraper-single">
-            <div class="photos-single">
-              <img src="download (2).jpeg" alt="" />
-            </div>
-            <!--photos-single-->
-          </div>
-          <!--photos-wraper-single-->
-        </div>
-        <!--photos-wraper-->
+      <div id="gallery">
+        <h1>Undergraduate </h1>
+        <img class="gallery-image" src="./photos/photo_hing.jpeg" alt="Image 1" />
+        <img class="gallery-image" src="./photos/photo_hing2.jpeg" alt="Image 2" />
+        <h1>High School</h1>
+        <img class="gallery-image" src="./photos/photo_unde.jpeg" alt="Image 3" />
+        <img class="gallery-image" src="./photos/photo_unde3.jpeg" alt="Image 4" />
+        <img class="gallery-image" src="./photos/photo_unde4.jpeg" alt="Image 5" />
+        <img class="gallery-image" src="./photos/photo_unde5.jpeg" alt="Image 6" />
+        <img class="gallery-image" src="./photos/photo_unde6.jpeg" alt="Image 7" />
+        <img class="gallery-image" src="./photos/photo_unde7.jpeg" alt="Image 8" />
       </div>
-      <!--photos-->
     </main>
 
     <footer>
