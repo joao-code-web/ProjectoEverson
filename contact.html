@@ -34,10 +34,10 @@
             <ul>
               <li><a href="./research.html">Research</a></li>
               <li><a href="./Publications.html">Publications</a></li>
-              <li><a href="./community.html">Community</a></li>
+              <li><a href="./outreach.html">Outreach</a></li>
               <li><a href="#">CV</a></li>
               <li><a href="./contact.html">Contact</a></li>
-              <li><a href="./resource.html">Resources</a></li>
+              <!-- <li><a href="./resource.html">Resources</a></li> -->
               <li><a href="./photo.html">Photos</a></li>
               <div class="iconsNav">
                 <i class="fa-brands fa-github"></i>
@@ -58,15 +58,17 @@
         Please feel free to contact me using the form below or by email:
         aaaaaaaaa@aaaaaa.br.
       </p>
-      <form action="">
-        <span>Your name</span>
-        <input type="text" name="name" id="nome" />
-        <span>Email Addres</span>
-        <input type="email" name="email" id="emailUser" />
-        <span>Message</span>
-        <textarea name="mensage" id="mensageUser" cols="30" rows="10">
-        </textarea>
-        <input type="submit" value="Send" />
+      <form action="https://formspree.io/f/mrgvwqoy" method="POST">
+        <label>
+          Your email:
+          <input type="email" name="email" />
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
       </form>
     </main>
 
@@ -75,8 +77,8 @@
         <h1>© Everson</h1>
       </div>
       <!--logo-->
-
     </footer>
   </body>
+
   <script src="./js/menu.js"></script>
 </html>
