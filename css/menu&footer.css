@@ -106,7 +106,9 @@ footer {
 
 .footer-contact {
   width: 50%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-contact h3 {
@@ -117,14 +119,9 @@ footer {
   margin: 5px 0px;
 }
 
-.footer-links {
-  width: 100%;
-  text-align: center;
-}
-
-.footer-links i {
-  font-size: 1.5em;
-  padding: 0px .3em;
+.footer-contact .contact .contact-links {
+  margin: auto;
+  text-align: left;
 }
 
 @media screen and (max-width: 900px) {
