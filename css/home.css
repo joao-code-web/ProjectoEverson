@@ -43,58 +43,77 @@
   padding: 0.2em 0px;
 }
 
-
-/* Estilos para o slide */
-.slide-container {
-  position: relative;
-  height: 200px;
-  overflow: hidden;
-  margin: 4em auto;
+.wraper-single {
+  width: 70%;
+  margin: auto;
+  transform: translateY(20%);
 }
 
-.slide {
-  position: absolute;
-  width: 60%;
-  height: 100%;
-  display: none;
-  left: 50%;
-  transform: translateX(-50%);
+.title-research {
+  width: 100%;
 }
 
-.slide.active {
-  display: block;
+.single-research {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em auto;
 }
 
-.slide img {
+.single-research .img-research {
+  width: 30%;
+  height: 400px;
+  margin-top: 2em;
+}
+
+.single-research .img-research img {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
-/* Estilos para as bolinhas de navegação */
-.navigation {
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  transform: translateX(-50%);
+.single-research .description-research {
+  width: 60%;
+  padding: 0em 2em;
+  text-align: justify;
 }
 
-.dot {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: gray;
-  margin: 0 5px;
-  cursor: pointer;
+.single-research .description-research h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+  color: rgba(20, 20, 20, 0.836);
+  padding-bottom: 2em;
 }
 
-.dot.active {
-  background-color: black;
+
+.button-research {
+  width: 100%;
+  border-top: 1px solid black;
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
 }
+
+.button-research span {
+  font-size: 1.5em;
+  padding-top: 1em;
+  padding-left: 0.2em;
+}
+
+.button-research button {
+  width: 120px;
+  padding: 1em;
+  border-radius: 1em;
+  outline: none;
+  margin-top: 1em;
+}
+
+.button-research button a {
+  color: black;
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 900px) {
   .description-doctor {
