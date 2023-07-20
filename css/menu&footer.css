@@ -196,4 +196,13 @@ footer {
   footer .icons-footer {
     margin-top: 20px;
   }
+
+  footer .footer-logo {
+    margin-bottom: 2em;
+    text-align: center;
+  }
+
+  .footer-contact {
+    width: 100%;
+  }
 }
